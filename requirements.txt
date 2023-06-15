@@ -1,3 +1,4 @@
+setuptools<58.0.0
 Django>=1.11,<1.12
 Scrapy>=1.5,<1.6
 scrapy-djangoitem>=1.1.1,<1.2
@@ -10,4 +11,3 @@ django-celery==3.2.1
 future>=0.17,<0.18
 pillow>=6.2.1,<7.0
 attrs>=17.4.0
-
