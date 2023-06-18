@@ -132,7 +132,6 @@ class ScraperTest(TestCase):
         'do_action': do_action,
         }
         self.spider = EventSpider(**kwargs)
-        print(self.spider)
         self.process.crawl(self.spider, **kwargs)
         self.process.start()
         
